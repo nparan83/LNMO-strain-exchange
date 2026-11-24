@@ -5,7 +5,7 @@
 # rebuilt from the relaxed structures and vc-relax outputs of the companion data set (doi:10.5281/zenodo.24353930).
 # Work directory: ./work_reproduce (or $WORK). Requires Python >= 3.8 with NumPy. Run time: < 1 min.
 set -eu
-REPO=$(cd "$(dirname "$0")/.." && pwd); P1=${1:-}
+REPO=$(cd "$(dirname "$0")/.." && pwd); P1=${1:-}; [ -n "$P1" ] && P1=$(cd "$P1" && pwd)
 W=${WORK:-$PWD/work_reproduce}; rm -rf "$W"; mkdir -p "$W"; cd "$W"
 for d in strain_2x2 U_scan; do for f in "$REPO"/outputs/$d/*.out.gz; do gunzip -c "$f" > "$(basename "${f%.gz}")"; done; done
 cp "$REPO"/scripts/*.py .; cp "$REPO"/data/mc/mc_eps*.dat .

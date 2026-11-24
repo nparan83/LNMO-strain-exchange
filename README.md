@@ -1,5 +1,7 @@
 # LNMO-strain-exchange
 
+[![DOI](https://zenodo.org/badge/1470158006.svg)](https://doi.org/10.5281/zenodo.24502020)
+
 Data and code for
 
 > N. Paran, *Opposite parity of the in-plane and out-of-plane Ni–O–Mn exchange displaces the Curie maximum of biaxially strained La₂NiMnO₆ toward compression*, submitted to Journal of Magnetism and Magnetic Materials (2026).
