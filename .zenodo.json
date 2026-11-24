@@ -1,0 +1,30 @@
+{
+  "title": "Data and code for: Opposite parity of the in-plane and out-of-plane Ni-O-Mn exchange displaces the Curie maximum of biaxially strained La2NiMnO6 toward compression",
+  "upload_type": "dataset",
+  "description": "Quantum ESPRESSO inputs and outputs (2x2 factorial spin-configuration design at eleven biaxial strain states, Hubbard-U scan, isotropic pilot, k-mesh test), classical Heisenberg Monte Carlo data, derived data files and analysis/plotting scripts for N. Paran, submitted to the Journal of Magnetism and Magnetic Materials (2026). README.md maps every table and figure to its data file and script; scripts/reproduce_all.sh regenerates all derived data files from the outputs. Relaxed structures and the vc-relax runs are in the companion data set doi:10.5281/zenodo.24353930.",
+  "creators": [
+    {
+      "name": "Paran, Nejdet",
+      "affiliation": "Erciyes University, Faculty of Science, Department of Physics, Kayseri, Türkiye",
+      "orcid": "0000-0003-0317-0438"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "La2NiMnO6",
+    "double perovskite",
+    "epitaxial strain",
+    "exchange constants",
+    "Curie temperature",
+    "Monte Carlo",
+    "DFT+U",
+    "Quantum ESPRESSO"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.24353930",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}
